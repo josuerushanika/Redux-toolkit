@@ -1,8 +1,6 @@
-import { configureStore } from "@reduxjs/toolkit";
-import CounterReducer from '../features/counter/counterSlice';
+import { configureStore } from '@reduxjs/toolkit'
 
 export const store = configureStore({
-    reducer:{
-        counter: CounterReducer,
-    }
+  reducer: {},
 })
+//13 50
